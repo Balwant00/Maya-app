@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- 
+    Base application theme for Maya.
+    This uses Material 3 components for a modern look and feel.
+  -->
+  <style name="Theme.Maya" parent="Theme.Material3.DayNight.NoActionBar">
+    
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">@color/maya_primary</item>
+    <item name="colorOnPrimary">@color/maya_onPrimary</item>
+    <item name="colorPrimaryContainer">@color/maya_primaryContainer</item>
+    <item name="colorOnPrimaryContainer">@color/maya_onPrimaryContainer</item>
+    
+    <!-- Secondary brand color. -->
+    <item name="colorSecondary">@color/maya_secondary</item>
+    <item name="colorOnSecondary">@color/maya_onSecondary</item>
+    <item name="colorSecondaryContainer">@color/maya_secondaryContainer</item>
+    <item name="colorOnSecondaryContainer">@color/maya_onSecondaryContainer</item>
+    
+    <!-- Tertiary brand color. -->
+    <item name="colorTertiary">@color/maya_tertiary</item>
+    <item name="colorOnTertiary">@color/maya_onTertiary</item>
+    <item name="colorTertiaryContainer">@color/maya_tertiaryContainer</item>
+    <item name="colorOnTertiaryContainer">@color/maya_onTertiaryContainer</item>
+
+    <!-- Error color. -->
+    <item name="colorError">@color/maya_error</item>
+    <item name="colorOnError">@color/maya_onError</item>
+    <item name="colorErrorContainer">@color/maya_errorContainer</item>
+    <item name="colorOnErrorContainer">@color/maya_onErrorContainer</item>
+
+    <!-- Background colors. -->
+    <item name="android:colorBackground">@color/maya_background</item>
+    <item name="colorOnBackground">@color/maya_onBackground</item>
+    <item name="colorSurface">@color/maya_surface</item>
+    <item name="colorOnSurface">@color/maya_onSurface</item>
+    <item name="colorSurfaceVariant">@color/maya_surfaceVariant</item>
+    <item name="colorOnSurfaceVariant">@color/maya_onSurfaceVariant</item>
+    
+    <!-- Status bar color. -->
+    <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSurface</item>
+    <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+  </style>
+</resources>
